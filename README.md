@@ -16,6 +16,7 @@ To enhance the detection of subtle differences in image compression and manipula
 - **Dataset**: [CASIA dataset on Kaggle](https://www.kaggle.com/datasets/sophatvathana/casia-dataset), containing real and manipulated (AI-generated) images.
 - **Techniques Used**:
   - **Error Level Analysis (ELA)** to highlight areas of the image with compression differences.
+  - **Convolution Neural Network (CNN)** to highlight areas of the image with compression differences.
   - **Image Augmentation** (height/width shifts, flipping) to increase dataset diversity.
   - **Transfer Learning** with models such as ResNet-50V3 to leverage pre-trained weights.
 
