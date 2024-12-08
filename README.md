@@ -3,13 +3,10 @@
 ## Overview
 This project focuses on developing a machine learning model to distinguish between real and AI-generated images. Using the CASIA dataset from Kaggle, which includes a variety of real and manipulated images, we aim to build a robust AI model capable of identifying AI-generated content. 
 
-To enhance the detection of subtle differences in image compression and manipulation, we apply **Error Level Analysis (ELA)** as a preprocessing technique. This approach helps expose the inconsistencies often present in AI-generated or altered images. The project further explores data augmentation and transfer learning to improve model performance in the face of limited computational resources and dataset constraints.
 
 ## Objectives
 - **Primary Objective**: Develop a model to accurately classify real and AI-generated images.
 - **Secondary Objectives**:
-  - Utilize ELA preprocessing to highlight subtle image manipulations.
-  - Incorporate data augmentation to enhance the model's generalizability.
   - Use transfer learning with pre-trained models to boost performance with limited data.
 
 ## Features
